@@ -1,218 +1,360 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>portfolio</title>
-	<!---custom css link--->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>portfolio</title>
+    <!---custom css link--->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 
-	<link rel="stylesheet"
-  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!---header--->
+    <header>
+      <a href="#" class="logo">My Portfolio</a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">My Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
 
-</head>
-<body>
-	<!---header--->
-	<header>
-		<a href="#" class="logo">My Portfolio</a>
-		<div class="bx bx-menu" id="menu-icon"></div>
-		<ul class="navbar">
-			<li><a href="#home">Home</a></li>
-			<li><a href="#about">About Me</a></li>
-			<li><a href="#services">Services</a></li>
-			<li><a href="#portfolio">My Portfolio</a></li>
-			<li><a href="#contact">Contact</a></li>
-		</ul>
-	</header>
+    <!---home--->
+    <section class="home" id="home">
+      <div class="home-text">
+        <h4>Hello</h4>
+        <h1>I'M Karim <br />Ashour</h1>
+        <h3>Software Developer</h3>
+      </div>
+    </section>
+    <!---about--->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="img/4.png"/>
+      </div>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <h4>Hi, I am enthusiastic web developement</h4>
+        <p>
+          I am skilled at using web tools , working with both Front-End and
+          Back-End Applications , I have knowledge in languages such as HTML ,
+          CSS, Javascript DOM|BOM, Jquery Library ,Bootstrab vesion 3&4&5 ,
+          React.js , Redux-Toolkit , Git&Github , OOP , My main target is
+          creating high-quality websites that meet customer needs.
+        </p>
+        <div class="about-gri">
+          <div class="about-in">
+            <h5>1. High Quality</h5>
+          </div>
+          <div class="about-in">
+            <h5>2. Creative Idea</h5>
+          </div>
+          <div class="about-in">
+            <h5>3. Problem Solving</h5>
+          </div>
+          <div class="about-in">
+            <h5>4. Search a lot</h5>
+          </div>
+        </div>
+        <a href="#contact" class="btn">Contact Me</a>
+      </div>
+    </section>
+    <!---services--->
+    <section class="services" id="services">
+      <div class="main-text">
+        <h2>My Services</h2>
+        <h4>Better Design, Better Expericences</h4>
+      </div>
+      <div class="services-content">
+        <div class="box">
+          <img src="img/11.png" />
+          <h3>Responsive Website Design</h3>
+          <p>
+            I love turning beautiful designs into usable websites that respond
+            to various devices and user contexts and are powered by code,I
+            always seek perfection to make my projects unique and creative and i
+            do so by keeping my eyes on the new tools
+          </p>
+        </div>
+      </div>
+    </section>
+    <!---portfolio--->
+    <section class="portfolio" id="portfolio">
+      <div class="main-text">
+        <h2>My Portfolio</h2>
+        <h4>Some Of My Distinguished Works</h4>
+      </div>
+      <div class="portfolio-content">
+        <div class="row">
+          <img src="img/headphones.PNG" />
+          <div class="main-row">
+            <div class="row-text">
+              <h6>App 1</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>Headphones-Design</h3>
+          <a href="https://karimashour.github.io/Headphones-Design/">Link</a>
+        </div>
+        <div class="row">
+          <img src="img/12.PNG" />
+          <div class="main-row">
+            <div class="row-text">
+              <h6>App 2</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>Pokemon App</h3>
+          <a
+            href="https://654922bd9aa76209dfa67e88--heroic-treacle-e83d7d.netlify.app/"
+            >Link</a
+          >
+        </div>
+        <div class="row">
+          <img src="img/13.PNG" />
+          <div class="main-row">
+            <div class="row-text">
+              <h6>App 3</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>Movies App</h3>
+          <a
+            href="https://65479a1f30cd2a4bf9448acd--comforting-crepe-e00783.netlify.app/"
+            >Link</a
+          >
+        </div>
+        <div class="row">
+          <img src="img/14.PNG" />
+          <div class="main-row">
+            <div class="row-text">
+              <h6>App 4</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>Book-Store App</h3>
+          <a href="https://book-store-website.surge.sh/">Link</a>
+        </div>
+        <div class="row">
+          <img src="img/15PNG.PNG" />
+          <div class="main-row">
+            <div class="row-text">
+              <h6>App 5</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>Dictionary App</h3>
+          <a href="https://karimashour.github.io/Dictionary_App/">Link</a>
+        </div>
+        <div class="row">
+          <img src="img/16.PNG" />
+          <div class="main-row">
+            <div class="row-text">
+              <h6>App 6</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>TD Templete</h3>
+          <a href="https://karimashour.github.io/TD/">Link</a>
+        </div>
+        <div class="row">
+          <img src="img/17.PNG" />
+          <div class="main-row">
+            <div class="row-text">
+              <h6>App 7</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>Quiz App</h3>
+          <a href="https://silly-string.surge.sh/">Link</a>
+        </div>
+        <div class="row">
+          <img src="img/18.PNG" />
+          <div class="main-row">
+            <div class="row-text">
+              <h6>App 8</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>Dubai-Safari App</h3>
+          <a href="https://dubai_safari.surge.sh/">Link</a>
+        </div>
+        <div class="row">
+          <img src="img/0.PNG" />
+          <div class="main-row">
+            <div class="row-text">
+              <h6>App 9</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>Weather Applications</h3>
+          <a href="https://karimashour.github.io/weather-app/">Link</a>
+        </div>
 
-	<!---home--->
-	<section class="home" id="home">
-		<div class="home-text">
-			<h4>Hello</h4>
-			<h1>I'M Karim <br>Ashour</h1>
-			<h3>Software Developer</h3>
-		</div>
-	</section>
-	<!---about--->
-	<section class="about" id="about">
-		<div class="about-img">
-			<img src="img/4.png">
-		</div>
-		<div class="about-text">
-			<h2>About Me</h2>
-			<h4>Hi, I am enthusiastic web developement</h4>
-			<p>I am skilled at using web tools , working with both Front-End and Back-End Applications , I have knowledge in  languages such as HTML , CSS, Javascript DOM|BOM,
-				Jquery Library ,Bootstrab vesion 3&4&5 , React , Redux , Node.js , Typescript , Ajax , Json , Rest APIs, Sass , Git&Github , OOP , Python, My main target is creating high-quality websites that meet customer needs. </p>
-			<div class="about-gri">
-				<div class="about-in">
-					<h5>1. High Quality</h5>
-				</div>			
-				<div class="about-in">
-					<h5>2. Creative Idea</h5>
-				</div>			
-				<div class="about-in">
-					<h5>3. Problem Solving</h5>
-				</div>				
-				<div class="about-in">
-					<h5>4. Search a lot</h5>
-				</div>
-			</div>
-			<a href="#contact" class="btn">Contact Me</a>
-		</div>
-	</section>
-	<!---services--->
-	<section class="services" id="services">
-		<div class="main-text">
-			<h2>My Services</h2>
-			<h4>Better Design, Better Expericences</h4>
-		</div>
-		<div class="services-content">
-			<div class="box">
-				<img src="img/11.png">
-				<h3>Responsive Website Design</h3>
-				<p>I love turning beautiful designs into usable websites that respond to various devices and user contexts and are powered by code,I always seek perfection to make my projects unique and creative and i do so by keeping my eyes on the new tools</p>
-			</div>
-		</div>
-	</section>
-	<!---portfolio--->
-	<section class="portfolio" id="portfolio">
-		<div class="main-text">
-			<h2>My Portfolio</h2>
-			<h4>Some Of My Distinguished Works</h4>
-		</div>
-		<div class="portfolio-content">
-			<div class="row">
-				<img src="img/0.PNG">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>React-App</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Weather Applications</h3>
-				<a href="https://karimashour.github.io/weather-app/">Link</a>
-			</div>
+        <div class="row">
+          <img src="img/1.PNG" />
+          <div class="main-row">
+            <div class="row-text">
+              <h6>App 10</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>Travel Website</h3>
+          <a href="https://karimashour.github.io/travel/">Link</a>
+        </div>
 
-			<div class="row">
-				<img src="img/1.PNG">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Traveling</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Travel Website</h3>
-				<a href="https://karimashour.github.io/travel/">Link</a>
-			</div>
+        <div class="row">
+          <img src="img/2.PNG" />
+          <div class="main-row">
+            <div class="row-text">
+              <h6>App 11</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>General Wbsite Design Templete</h3>
+          <a href="https://karimashour.github.io/web-site/">Link</a>
+        </div>
 
-			<div class="row">
-				<img src="img/2.PNG">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Templete</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>General Wbsite Design Templete</h3>
-				<a href="https://karimashour.github.io/web-site/">Link</a>
-			</div>
+        <div class="row">
+          <img src="img/3.PNG" />
+          <div class="main-row">
+            <div class="row-text">
+              <h6>App 12</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>Islamic Website</h3>
+          <a href="https://karimashour.github.io/islam/">Link</a>
+        </div>
 
-			<div class="row">
-				<img src="img/3.PNG">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Islam</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Islamic Website</h3>
-				<a href="https://karimashour.github.io/islam/">Link</a>
-			</div>
+        <div class="row">
+          <img src="img/5.PNG" />
+          <div class="main-row">
+            <div class="row-text">
+              <h6>App 13</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>Helping Website</h3>
+          <a href="https://karimashour.github.io/volunteer/">Link</a>
+        </div>
 
-			<div class="row">
-				<img src="img/5.PNG">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Volunteering</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Helping Website</h3>
-				<a href="https://karimashour.github.io/volunteer/">Link</a>
-			</div>
+        <div class="row">
+          <img src="img/6.PNG" />
+          <div class="main-row">
+            <div class="row-text">
+              <h6>App 14</h6>
+            </div>
+            <div class="row-icon">
+              <i class="bx bx-heart"></i>
+            </div>
+          </div>
+          <h3>Gym Website</h3>
+          <a href="https://karimashour.github.io/fitness/">Link</a>
+        </div>
+      </div>
+    </section>
 
-			<div class="row">
-				<img src="img/6.PNG">
-				<div class="main-row">
-					<div class="row-text">
-						<h6>Fitness</h6>
-					</div>
-					<div class="row-icon">
-						<i class='bx bx-heart'></i>
-					</div>
-				</div>
-				<h3>Gym Website</h3>
-				<a href="https://karimashour.github.io/fitness/">Link</a>
-			</div>
+    <!---contact--->
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <h2>Contact Me</h2>
+        <h4>Let's Work Together</h4>
+        <p>
+          Faculty Of Engineering , Department Of Computer System Engineering,
+          Minia University
+        </p>
+        <div class="contact-list">
+          <li><a href="#">Minia - maghagha - Egypt</a></li>
+          <li><a href="#">karimashour839@gmail.com</a></li>
+          <li><a href="#">01117657201</a></li>
+        </div>
+        <div class="contact-icons">
+          <a href="https://www.linkedin.com/in/karim-ashour-935a95192/"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://www.facebook.com/profile.php?id=100009004892764"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="https://www.behance.net/karimashou47d8"
+            ><i class="bx bxl-behance"></i
+          ></a>
+          <a href="https://twitter.com/KarimKi61101765"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+        </div>
+      </div>
 
-		</div>
-	</section>
+      <div class="contact-form">
+        <form action="">
+          <input type="" placeholder="Enter Your Name" required />
+          <input type="email" placeholder="Enter Your Email" required />
+          <input type="" placeholder="Enter Your Subject" />
+          <textarea
+            name=""
+            id=""
+            cols="40"
+            rows="10"
+            placeholder="Enter Your Message"
+            required
+          ></textarea>
+          <input type="submit" value="Submit" class="send" />
+        </form>
+      </div>
+    </section>
 
-	<!---contact--->
-	<section class="contact" id="contact">
-		<div class="contact-text">
-			<h2>Contact Me</h2>
-			<h4>Let's Work Together</h4>
-			<p>Faculty Of Engineering , Department Of Computer System Engineering, Minia University</p>
-			<div class="contact-list">
-				<li><a href="#">Minia - maghagha - Egypt</a></li>
-				<li><a href="#">karimashour839@gmail.com</a></li>
-				<li><a href="#">01117657201</a></li>
-			</div>
-			<div class="contact-icons">
-				<a href="https://www.linkedin.com/in/karim-ashour-935a95192/"><i class='bx bxl-linkedin' ></i></a>
-				<a href="https://www.facebook.com/profile.php?id=100009004892764"><i class='bx bxl-facebook' ></i></a>
-				<a href="https://www.behance.net/karimashou47d8"><i class='bx bxl-behance' ></i></a>
-				<a href="https://twitter.com/KarimKi61101765"><i class='bx bxl-twitter'></i></a>
-			</div>
-		</div>
+    <div class="last-text">
+      <p>
+        Developed by <span style="color: #6ac22b">Karim Ashour</span> © 2023
+      </p>
+    </div>
 
-		<div class="contact-form">
-			<form action="">
-				<input type="" placeholder="Enter Your Name" required>
-				<input type="email" placeholder="Enter Your Email" required>
-				<input type="" placeholder="Enter Your Subject">
-				<textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
-				<input type="submit" value="Submit" class="send">
-			</form>
-		</div>
-	</section>
+    <!---scroll-top--->
+    <a href="#" class="top"><i class="bx bx-up-arrow-alt"></i></a>
 
-	<div class="last-text">
-		<p>Developed  by <span style="color: #6ac22b;">Karim Ashour</span>  © 2022</p>
-	</div>
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-	<!---scroll-top--->
-	<a href="#" class="top"><i class='bx bx-up-arrow-alt' ></i></a>
-
-	<script src="https://unpkg.com/scrollreveal"></script>
-
-	<!---custom js link--->
-	<script type="text/javascript" src="js/script.js"></script>
-
-</body>
+    <!---custom js link--->
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
 </html>
